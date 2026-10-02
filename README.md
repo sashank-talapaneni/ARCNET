@@ -16,6 +16,9 @@ Built for the **Design and Analysis of Algorithms Experiential Learning project 
 
 BFS optimizes hop count rather than weighted cost; DFS explores a traversal route, and Backtracking applies constraints. Winner scores are relative to successful routes in the current comparison. The resilience score is a session-specific heuristic.
 
+<img width="1582" height="847" alt="image" src="https://github.com/user-attachments/assets/69d418ac-a354-467f-88f5-66602ba8bb3c" />
+<img width="1579" height="842" alt="image" src="https://github.com/user-attachments/assets/45561b4b-9a0d-4c31-b816-989963bd0ecf" />
+
 
 ## Tech Stack
 
