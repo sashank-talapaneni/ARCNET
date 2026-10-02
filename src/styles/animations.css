@@ -1,0 +1,22 @@
+@keyframes dash-forward {
+  from { stroke-dashoffset: 100; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes dash-reverse {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: 100; }
+}
+@keyframes pulseGlow { 50% { box-shadow: var(--accent-cyan-glow); } }
+@keyframes flashReject { 50% { stroke: var(--failure); filter: drop-shadow(var(--failure-glow)); } }
+@keyframes pathChangeFlash { 0%, 100% { stroke: var(--algo-color); } 50% { stroke: #ffffff; filter: drop-shadow(0 0 16px #ffffffaa); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.animate-forward { stroke-dasharray: 12 12; animation: dash-forward 900ms linear infinite; }
+.animate-reverse { stroke-dasharray: 12 12; animation: dash-reverse 900ms linear infinite; }
+.solid-path { stroke-dasharray: none; animation: none; }
+.pulse { animation: pulseGlow 1.4s ease infinite; }
+.reject-flash { animation: flashReject 400ms ease; }
+.path-change-flash { animation: pathChangeFlash 200ms ease; }
