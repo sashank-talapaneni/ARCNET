@@ -37,6 +37,7 @@ git clone https://github.com/sashank-talapaneni/ARCNET.git
 cd ARCNET
 npm install
 Copy-Item .env.example server/.env
+# macOS/Linux: cp .env.example server/.env
 ```
 
 Edit `server/.env` and replace the placeholder with your Groq API key:
